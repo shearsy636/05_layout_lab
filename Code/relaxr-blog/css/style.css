@@ -1,0 +1,136 @@
+/* Box Model fix */
+*/* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Float fix */
+.clearfix::after {
+  clear: both;
+  content: ".";
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
+
+/* Other styles */
+a {
+  text-decoration: none;
+  color: #606161;
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #f0efef;
+}
+header {
+  background-color: #033048;
+  height: 20%;
+  display: inline-block;
+  width: 100%;
+}
+footer {
+  background-color: #121212;
+  height: 20%;
+  width: 100%;
+  color: #f9e42e;
+  text-align: center;
+  margin: auto;
+  display: block;
+}
+h1 {
+  display: inline-block;
+  font-weight: 800px;
+}
+h2 {
+  font-size: 40px;
+  font-weight: 500px;
+}
+nav {
+  float: right;
+  padding-top: 40px;
+  padding-right: 30px;
+}
+span {
+  font-size: 24px;
+  font-weight:600px;
+  text-align:right;
+  padding-bottom: 10px;
+}
+aside {
+  vertical-align: top;
+  width:20%;
+  display: inline-block;
+  margin-top: 5%;
+}
+.read {
+  text-align: right;
+}
+.logo {
+  color: white;
+  padding-top: 25px;
+  padding-left: 20px;
+}
+.nav{
+  color: #f9e42e;
+  font-weight: 600px;
+  padding: 10px 10px 20px 10px;
+  font-size: 24px;
+}
+.blogs {
+  width: 71%;
+  display: inline-block;
+  margin:3% 2% 5% 2%;
+  width: 700px;
+}
+.blog_1 {
+  border-bottom: solid #606161 2px;
+  padding-bottom: 20px;
+}
+.blog_2 {
+  border-bottom: solid #606161 2px;
+  padding-bottom: 20px;
+}
+.cats {
+  display: block;
+  padding-bottom: 2px;
+}
+.button_2 {
+  font-weight:800;
+  font-size: 28px;
+  color: white;
+  border: solid #033048 5px;
+  border-radius: 5px;
+  background-color: #033048;
+  width: 300px;
+  padding: 10px;
+  margin: auto;
+  margin-bottom: 30px;
+  text-align: center;
+  text-decoration-line: none;
+}
+.button_2 a:visited {
+  color: white;
+}
+.yellow {
+  background-color: #f9e42e;
+  height: 20px;
+  padding: 50px 0 70px 0;
+  width: 100%;
+  }
+.copyright {
+  background-color: #121212;
+  font-weight:600;
+  font-size: 18px;
+  color: white;
+  text-align: center;
+  vertical-align: center;
+  margin: auto;
+  padding: 20px;
+}
+.twitter {
+  padding: 10px 15px 20px 15px;
+}
+.facebook {
+  padding: 10px 15px 20px 15px;
+}
